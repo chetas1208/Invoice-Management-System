@@ -1,0 +1,14 @@
+.InvoiceForm {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #0099cc; /* Blue */
+    background-color: #f0f0f0;
+  }
+  
+  .InvoiceForm h2 {
+    margin-bottom: 10px;
+  }
+  
+  .blue{
+    
+  }

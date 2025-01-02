@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #3498db, rgba(43, 43, 224, 0.712)); /* Gradient background */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: black; /* Black */
+  text-decoration: underline;
+  text-shadow: #2c3e50;
+}
+
+h2 {
+  color: #ff0000; /* Red */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Invoice {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Gray */
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Invoice h3 {
+  color: #ff0000; /* Red */
+  margin-bottom: 5px;
+}
+
+.Invoice p {
+  margin: 10px 0;
+}
+
+.Invoice table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.Invoice table th,
+.Invoice table td {
+  padding: 8px;
+  border: 1px solid #ccc; /* Gray */
+}
+
+.Invoice table th {
+  background-color: #f0f0f0;
+}
+
+.Invoice table td:last-child {
+  text-align: right;
+}
+
+.Invoice form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Invoice input[type="text"],
+.Invoice input[type="number"] {
+  flex: 1;
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+.Invoice button {
+  padding: 5px 10px;
+  background-color: #3498db; /* Blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Invoice button.red {
+  background-color: #ff0000; /* Red */
+}
+
+.Invoice p {
+  margin-top: 5px;
+  text-align: right;
+  color: #3498db; /* Blue */
+}
+
+button{
+  border-radius: 8px;
+}
